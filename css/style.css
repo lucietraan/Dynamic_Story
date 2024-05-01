@@ -266,11 +266,17 @@ body, html {
     background-size: cover;
     /* transition: 1s ease all; */
     animation-name: fadein;
-    animation-duration: 8s;
-    /* animation-delay: s; */
+    animation-duration: 5s;
+    /* animation-delay: 3s; */
     animation-iteration-count: infinite;
+    transition: opacity 1s ease;
 }
 
+@keyframes fadein { 
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
 
 
 .allstars {
@@ -290,13 +296,6 @@ body, html {
   }
 
 /* ANIMATIONS */
-
-@keyframes fadein { 
-    0% {opacity: 0;}
-    10% {opacity: 1;}
-    90% {opacity: 1;}
-    100% {opacity: 0;}
-}
 
 @keyframes fadeintitle { 
     0% {opacity: 0;}

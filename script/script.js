@@ -109,7 +109,7 @@ var intervalId = window.setInterval(function(){
     $('.star:nth-child(' + i + ')').css("transform","translate(" + randomx + "vw," + randomy + "vw)");
 }
 
-}, 8000);
+}, 5000);
 
 
 ScrollTrigger.create({
